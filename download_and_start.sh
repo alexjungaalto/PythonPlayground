@@ -8,12 +8,8 @@ export GIT_COMMITTER_NAME=anonymous
 export GIT_COMMITTER_EMAIL=anon@localhost
 
 git clone https://github.com/alexjungaalto/PythonPlayground.git
-pip install sklearn numpy scipy svgwrite pandas pymc3
+pip install sklearn numpy scipy svgwrite pandas pymc3 hiddenlayer pytorch-pretrained-bert
 
 rm PythonPlayground/README.md
 rm PythonPlayground/download_and_start.sh
 rm download_and_start.sh
-
-
-
-
